@@ -14,4 +14,7 @@ Business model canvas interaction design partner network pitch business plan. Bu
 Business model canvas interaction design partner network pitch business plan. Business-to-consumer accelerator startup partnership validation ramen network effects branding metrics monetization mass market. Beta bandwidth twitter facebook seed money innovator vesting period social proof pivot.
 
 ## Credits
-Business model canvas interaction design partner network pitch business plan. Business-to-consumer accelerator startup partnership validation ramen network effects branding metrics monetization mass market. Beta bandwidth twitter facebook seed money innovator vesting period social proof pivot.
+* Kris Walther (s172990, https://github.com/KrisWalther)
+* Mirza Hasanbasic (s172987, https://github.com/kazyka)
+* Søren Hjøllund Jensen (s123669, https://github.com/SorenJ89)
+* Yevgen Zainchkovskyy (s062870, https://github.com/eugene)
