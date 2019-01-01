@@ -7,11 +7,11 @@ In addition to `pytorch` (https://pytorch.org) and the usual data science packag
 ## A3C Model
 
 ## A2C Model
-To generate the weights file (refreshed every 300 episodes):
+To generate the `convrnn-s.weights` weights file (refreshed every 300 episodes):
 
 ```python A2C/main.py train``` 
 
-To see how your agent plays (loads the weights and can be used while the training is running):
+To see how your agent plays (loads the `convrnn-s.weights` weights file and can be used while the training is running):
 
 ```python A2C/main.py eval``` 
 
