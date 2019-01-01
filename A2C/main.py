@@ -7,7 +7,6 @@ from collections import Counter
 import os
 import sys
 import time
-import zmq
 import random
 import os
 import math
@@ -51,65 +50,6 @@ class World():
         else:         c = colorama.Fore.WHITE
         x = '{0: <2}'.format(x)
         return f'{c}{x}{colorama.Fore.RESET}'
-
-def collector(socket_r):
-    while True:
-        try: msg = socket_r.recv()
-        except Exception:
-            socket_r.close()
-            break
-        
-        if len(batch) < ROLLOUTS_PER_BATCH:
-            batch.append(msg)
-        else:
-            print("Batch was full. Skipping this episode.")
-    
-def main(world):
-    global socket, socket_r
-    context = zmq.Context()
-    socket = context.socket(zmq.PUB)
-    socket.bind("tcp://127.0.0.1:5557")
-    
-    socket_r = context.socket(zmq.PULL)
-    socket_r.bind("tcp://127.0.0.1:5558")
-    
-    thread = Thread(target = collector, args = (socket_r, ))
-    thread.start()
-
-    try:
-        while True:
-            if len(batch) >= ROLLOUTS_PER_BATCH:
-                print("Got full batch. Training")
-                del batch[:]
-
-            print(int(time.time()), "Broadcasting current weights")
-            topic = random.randrange(9999,10005)
-            messagedata = random.randrange(1,215) - 80
-            s = "%d %d" % (topic, messagedata)
-            socket.send_string(s)
-            time.sleep(0.5)
-    except KeyboardInterrupt: 
-        socket_r.close()        
-        socket.close()
-        try: context.term()
-        except Exception: pass
-
-def consumer():
-    context = zmq.Context()
-    socket = context.socket(zmq.SUB)
-    socket.connect("tcp://127.0.0.1:5557")
-    socket.setsockopt_string(zmq.SUBSCRIBE, "")
-    sender = context.socket(zmq.PUSH)
-    sender.connect("tcp://127.0.0.1:5558")
-    
-    try: 
-        while True:
-            msg = socket.recv()
-            print("GOT", msg, "Doing work, sending result.")
-            sender.send_string("RESULT")
-    except KeyboardInterrupt: 
-        sender.close()
-        socket.close()
 
 def do_rollout(env, leif, do_print = False):
     done, state = False, env.reset()
