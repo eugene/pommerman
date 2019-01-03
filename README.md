@@ -68,9 +68,9 @@ Finally we have the reward for our architecture shown below
 See [our paper](https://github.com/eugene/pommerman/blob/master/paper.pdf) for detailed information about the project.
 
 ## :bust_in_silhouette: Credits
-* Kris Walther (s172990, @KrisWalther)
-* Mirza Hasanbasic (s172987, @kazyka)
-* Søren Hjøllund Jensen (s123669, @SorenJ89)
-* Yevgen Zainchkovskyy (s062870, @eugene)
+* Kris Walther (s172990, [@KrisWalther](https://github.com/KrisWalther))
+* Mirza Hasanbasic (s172987, [@kazyka](https://github.com/kazyka))
+* Søren Hjøllund Jensen (s123669, [@SorenJ89](https://github.com/SorenJ89))
+* Yevgen Zainchkovskyy (s062870, [@eugene](https://github.com/eugene))
 
-+ Special thanks to @dimatter for the provided computational ressources :heart:
++ Special thanks to [@dimatter](https://github.com/dimatter) for the provided computational ressources :heart:
