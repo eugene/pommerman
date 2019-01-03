@@ -9,13 +9,13 @@ Our agent always starts in the left upper corner.
 #### Playing against 3 random agents
 
 
-![not_perfect](https://github.com/eugene/pommerman/blob/master/gif/not_perfect.gif "Not perfect run")
+![vs-3-random](https://github.com/eugene/pommerman/blob/master/gif/vs-3-random.gif "vs-3-random")
 
 #### Playing against 1 simple and 2 random agents
 
 
 ![1simple1simple2random](https://github.com/eugene/pommerman/blob/master/gif/vs-simple-2-random.gif "Playing against 1 simple and 2 randoms")
-
+![not_perfect](https://github.com/eugene/pommerman/blob/master/gif/not_perfect.gif "Not perfect run")
 
 
 #### Playing against 3 simple agents
