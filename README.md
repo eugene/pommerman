@@ -1,4 +1,4 @@
-﻿# Pommerman :bomb:
+# Pommerman :bomb:
 PyTorch based, reinforcement learning solution for the [Pommerman competitions](https://www.pommerman.com/) done as an exam project in course [02456 - Deep learning](http://kurser.dtu.dk/course/02456) at DTU - Technical University of Denmark.
 
 ## Our agent
@@ -25,6 +25,9 @@ Our agent always starts in the left upper corner.
 
 ## :wrench: Requirements 
 In addition to `pytorch` (https://pytorch.org) and the usual data science packages (`numpy`, `matplotlib`) this project depends on the Pommerman `playground` (https://github.com/MultiAgentLearning/playground) to be installed in your Python environment. Additionally, A2C script depends on the `colorama` package which helps with the rendering of the game in terminal (perfect for running on remote servers).
+
+## :exclamation: DISCLAIMER
+As this project uses the torch.multiprocessing package which is not compatible with jupyter notebook, the files to reproduce our results are suplied as individual python files. The guide for running these files is written below.
 
 ## :chart_with_upwards_trend: Imitation learning
 To start the imitation learnining, first place the ```log_simpleAgents_sequence_observe.py``` file in the path ```playground\pommerman\cli```. Hereafter, place the file ```AA_RUN_LOG_SCRIPT.py``` in the playground folder and run it.
@@ -56,5 +59,5 @@ Business model canvas interaction design partner network pitch business plan. Bu
 ## :bust_in_silhouette: Credits
 * Kris Walther (s172990, https://github.com/KrisWalther)
 * Mirza Hasanbasic (s172987, https://github.com/kazyka)
-* SÃ¸ren HjÃ¸llund Jensen (s123669, https://github.com/SorenJ89)
+* Søren Hjøllund Jensen (s123669, https://github.com/SorenJ89)
 * Yevgen Zainchkovskyy (s062870, https://github.com/eugene)
