@@ -62,7 +62,7 @@ From the following figure, we see that with 40.000 episodes that A2C performas b
 
 Finally we have the reward for our architecture shown below
 
-![final_training](https://github.com/eugene/pommerman/blob/master/img/final_training.png "Finally the final model with its reward")
+![final_training](https://github.com/eugene/pommerman/blob/master/img/final_training_reward.png "Finally the final model with its reward")
 
 ## :page_facing_up: Paper
 Business model canvas interaction design partner network pitch business plan. Business-to-consumer accelerator startup partnership validation ramen network effects branding metrics monetization mass market. Beta bandwidth twitter facebook seed money innovator vesting period social proof pivot.
