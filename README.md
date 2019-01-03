@@ -3,13 +3,15 @@ PyTorch based, reinforcement learning solution for the [Pommerman competitions](
 
 ## Our agent
 
-![1simple3random](https://github.com/eugene/pommerman/gif/vs-3-random.gif "Playing against 3 randoms")
+![1simple3random](https://github.com/eugene/pommerman/blob/master/gif/vs-3-random.gif "Playing against 3 randoms")
 
-![1simple1simple2random](https://github.com/eugene/pommerman/gif/vs-simple-2-random.gif "Playing against 1 simple and 2 randoms")
+![1simple1simple2random](https://github.com/eugene/pommerman/blob/master/gif/vs-simple-2-random.gif "Playing against 1 simple and 2 randoms")
 
-![not_perfect](https://github.com/eugene/pommerman/gif/not_perfect.gif "Not perfect run")
+![not_perfect](https://github.com/eugene/pommerman/blob/master/gif/not_perfect.gif "Not perfect run")
 
-![1simple3simple](https://github.com/eugene/pommerman/gif/vs-3-simple.gif "Playing against 3 simple")
+![1simple3simple](https://github.com/eugene/pommerman/blob/master/gif/vs-3-simple.gif "Playing against 3 simple")
+
+
 
 ## :wrench: Requirements 
 In addition to `pytorch` (https://pytorch.org) and the usual data science packages (`numpy`, `matplotlib`) this project depends on the Pommerman `playground` (https://github.com/MultiAgentLearning/playground) to be installed in your Python environment. Additionally, A2C script depends on the `colorama` package which helps with the rendering of the game in terminal (perfect for running on remote servers).
