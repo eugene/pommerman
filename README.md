@@ -65,7 +65,7 @@ Finally we have the reward for our architecture shown below
 ![final_training](https://github.com/eugene/pommerman/blob/master/img/final_training_reward.png "Finally the final model with its reward")
 
 ## :page_facing_up: Paper
-Business model canvas interaction design partner network pitch business plan. Business-to-consumer accelerator startup partnership validation ramen network effects branding metrics monetization mass market. Beta bandwidth twitter facebook seed money innovator vesting period social proof pivot.
+
 
 ## :bust_in_silhouette: Credits
 * Kris Walther (s172990, https://github.com/KrisWalther)
