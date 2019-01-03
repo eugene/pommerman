@@ -65,10 +65,12 @@ Finally we have the reward for our architecture shown below
 ![final_training](https://github.com/eugene/pommerman/blob/master/img/final_training_reward.png "Finally the final model with its reward")
 
 ## :page_facing_up: Paper
-
+See [our paper](https://github.com/eugene/pommerman/blob/master/paper.pdf) for detailed information about the project.
 
 ## :bust_in_silhouette: Credits
-* Kris Walther (s172990, https://github.com/KrisWalther)
-* Mirza Hasanbasic (s172987, https://github.com/kazyka)
-* Søren Hjøllund Jensen (s123669, https://github.com/SorenJ89)
-* Yevgen Zainchkovskyy (s062870, https://github.com/eugene)
+* Kris Walther (s172990, @KrisWalther)
+* Mirza Hasanbasic (s172987, @kazyka)
+* Søren Hjøllund Jensen (s123669, @SorenJ89)
+* Yevgen Zainchkovskyy (s062870, @eugene)
+
++ Special thanks to @dimatter for the provided computational ressources :heart:
