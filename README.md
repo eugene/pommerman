@@ -3,11 +3,21 @@ PyTorch based, reinforcement learning solution for the [Pommerman competitions](
 
 ## Our agent
 
+Our agent always starts in the left upper corner.
+
+
+#### Playing against 3 random agents
+
 ![1simple3random](https://github.com/eugene/pommerman/blob/master/gif/vs-3-random.gif "Playing against 3 randoms")
+
+#### Playing against 1 simple and 2 random agents
+
 
 ![1simple1simple2random](https://github.com/eugene/pommerman/blob/master/gif/vs-simple-2-random.gif "Playing against 1 simple and 2 randoms")
 
 ![not_perfect](https://github.com/eugene/pommerman/blob/master/gif/not_perfect.gif "Not perfect run")
+
+#### Playing against 3 simple agents
 
 ![1simple3simple](https://github.com/eugene/pommerman/blob/master/gif/vs-3-simple.gif "Playing against 3 simple")
 
