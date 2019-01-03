@@ -19,7 +19,7 @@ Our agent always starts in the left upper corner.
 
 #### Playing against 3 simple agents
 
-![1simple3simple](https://github.com/eugene/pommerman/blob/master/gif/vs-3-simple.gif "Playing against 3 simple")
+![1simple3simple](https://github.com/eugene/pommerman/blob/master/gif/ezgif.com-resize.gif "Playing against 3 simple")
 
 
 
