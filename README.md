@@ -53,7 +53,7 @@ During the training current `gamma`, `running reward`, `action statistics` and `
 ## :bar_chart: Main results
 The full model that is used for this project can be seen in the below image
 
-![fullmodel](https://github.com/eugene/pommerman/blob/master/img/architecture.png "The full model")
+![fullmodel](https://github.com/eugene/pommerman/blob/master/img/architecture.PNG "The full model")
 
 From the following figure, we see that with 40.000 episodes that A2C performas better than A3C
 
