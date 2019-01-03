@@ -8,12 +8,14 @@ Our agent always starts in the left upper corner.
 
 #### Playing against 3 random agents
 
-![not_perfect](https://github.com/eugene/pommerman/blob/master/gif/not_perfect.gif "Not perfect run")
+
+![vs-3-random](https://github.com/eugene/pommerman/blob/master/gif/vs-3-random.gif "vs-3-random")
 
 #### Playing against 1 simple and 2 random agents
 
 
 ![1simple1simple2random](https://github.com/eugene/pommerman/blob/master/gif/vs-simple-2-random.gif "Playing against 1 simple and 2 randoms")
+![not_perfect](https://github.com/eugene/pommerman/blob/master/gif/not_perfect.gif "Not perfect run")
 
 
 #### Playing against 3 simple agents
@@ -22,7 +24,7 @@ Our agent always starts in the left upper corner.
 
 
 
-## :wrench: Requirements 
+## :wrench: Requirements
 In addition to `pytorch` (https://pytorch.org) and the usual data science packages (`numpy`, `matplotlib`) this project depends on the Pommerman `playground` (https://github.com/MultiAgentLearning/playground) to be installed in your Python environment. Additionally, A2C script depends on the `colorama` package which helps with the rendering of the game in terminal (perfect for running on remote servers).
 
 ## :exclamation: DISCLAIMER
@@ -41,11 +43,11 @@ To train the A3C model, place the ```A3C_v10_cnn_lstm.py``` and ```sharedAdam```
 ## :chart_with_downwards_trend: A2C Model
 To generate the `convrnn-s.weights` weights file (refreshed every 300 episodes):
 
-```python A2C/main.py train``` 
+```python A2C/main.py train```
 
 To see how your agent plays (loads the `convrnn-s.weights` weights file and can be used while the training is running):
 
-```python A2C/main.py eval``` 
+```python A2C/main.py eval```
 
 During the training current `gamma`, `running reward`, `action statistics` and `loss` are printed after each episode. It takes around 48 hours to fully train this model (40000 episodes) on a modern 10 core CPU with a single 1080TI GPU. Additionally, a `training.txt` file is generated with the main statistics for each trained episode.
 
