@@ -50,11 +50,12 @@ To see how your agent plays (loads the `convrnn-s.weights` weights file and can 
 
 During the training current `gamma`, `running reward`, `action statistics` and `loss` are printed after each episode. It takes around 48 hours to fully train this model (40000 episodes) on a modern 10 core CPU with a single 1080TI GPU. Additionally, a `training.txt` file is generated with the main statistics for each trained episode.
 
-## :bar_chart: Main results
+## :hammer: Model
 The full model that is used for this project can be seen in the below image
 
 ![fullmodel](https://github.com/eugene/pommerman/blob/master/img/architecture.PNG "The full model")
 
+## :bar_chart: Main results
 From the following figure, we see that with 40.000 episodes that A2C performas better than A3C
 
 ![a2ca3c](https://github.com/eugene/pommerman/blob/master/img/A2C_vs_A3C.png "Performance between A3C and A2c")
